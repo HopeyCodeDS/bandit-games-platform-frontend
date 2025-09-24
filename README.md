@@ -196,6 +196,8 @@ The chatbot provides an interactive way for players to ask questions and get hel
 3. The chatbot responds with helpful information or troubleshooting steps.
     - If the chatbot is unable to generate a response, an error message displays: "A response could not be generated."
 
+NB: The platform chatbot service can be found in this repo [here](https://github.com/HopeyCodeDS/RAG-based-chatbot-integration)
+
 ---
 
 ## Admin Role
@@ -249,15 +251,24 @@ Provides real-time data about player activities and game performance.
     - Total Moves
     - Total Wins and Losses
     - Total Time Played (Minutes)
+
+![Statistics 1](./src/assets/statistics_1.png)
+
 2. Allows filtering by:
     - Country
     - Age
     - Game Name
     - Gender
 
+![Statistics 2](./src/assets/statistics_2.png)
+
+NB: The statistics service can be found [here](https://github.com/HopeyCodeDS/bandit-games-ml-analytics).
+
 ---
 
 ### Analytics
+
+![Analytics](./src/assets/analytics.png)
 
 ### Purpose
 
@@ -268,9 +279,13 @@ Visualize platform data to track trends and performance.
 1. **Top 5 Played Games**: Displays the most popular games on the platform.
 2. **Top Players Per Game**: Lists the top-performing players for each game.
 
+NB: The analytics service can be found [here](https://github.com/HopeyCodeDS/bandit-games-ml-analytics).
+
 ---
 
 ### Predictions
+
+![Prediction Form](./src/assets/prediction_1.png)
 
 ### Purpose
 
@@ -280,9 +295,23 @@ Utilizes player and game data to generate insights and forecasts.
 
 1. Predicts future trends in game popularity and player activity.
 2. Provides suggestions for platform improvements based on predictive analytics.
+   
+![Actual Predictions](./src/assets/prediction_2.png)
+
+NB: The prediction service can be found [here](https://github.com/HopeyCodeDS/bandit-games-ml-analytics).
 
 ---
 
 This document will be updated as new features are developed for both **Player Role** and **Admin Role**. Stay tuned for
 further updates!
+---
+![Store](./src/assets/store.png)
+
+## **👥 Contributors**
+
+- [Nicolas](https://github.com/nicolas-lorenzo)
+- [Samed](https://github.com/samedify)
+- [Opeyemi](https://github.com/HopeyCodeDS)
+- [Hamed](https://github.com/Hamedmdfr)
+- [Margarita](https://github.com/Endelosss)
 
