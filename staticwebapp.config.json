@@ -1,0 +1,40 @@
+{
+  "routes": [
+    {
+      "route": "/assets/*",
+      "serve": "/assets"
+    },
+    {
+      "route": "/store/*",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/my-games",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/statistics",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/analytics",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/predictions",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/add-game",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/profile",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/*",
+      "rewrite": "/index.html"
+    }
+  ]
+}
